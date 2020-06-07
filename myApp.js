@@ -203,6 +203,7 @@ app.use(helmet.contentSecurityPolicy({
 // We introduced each middleware separately, for teaching purpose, and for
 // ease of testing. Using the 'parent' `helmet()` middleware is easiest, and
 // cleaner, for a real project.
+app.use(helmet());
 
 // ---- DO NOT EDIT BELOW THIS LINE ---------------------------------------
 
